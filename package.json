@@ -20,9 +20,12 @@
       "interfaces": [
          "LLMTools"
       ],
+      "pythonVersion": {
+         "default": "3.12"
+      },
       "labels": {
          "require": [
-            "audio-generation"
+            "@scrypted/kokoro"
          ]
       }
    },
@@ -36,5 +39,5 @@
    "devDependencies": {
       "@scrypted/sdk": "^0.5.48"
    },
-   "version": "0.0.19"
+   "version": "0.0.20"
 }
