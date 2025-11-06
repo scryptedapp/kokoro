@@ -7,3 +7,4 @@ src
 .vscode
 dist/*.js
 __pycache__
+.venv

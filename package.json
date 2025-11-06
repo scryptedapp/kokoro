@@ -21,11 +21,20 @@
          "LLMTools"
       ],
       "labels": {
-         "require": ["audio-generation"]
+         "require": [
+            "audio-generation"
+         ]
       }
    },
+   "keywords": [
+      "scrypted",
+      "plugin",
+      "kokoro",
+      "tts",
+      "audio"
+   ],
    "devDependencies": {
       "@scrypted/sdk": "^0.5.48"
    },
-   "version": "0.0.15"
+   "version": "0.0.17"
 }
