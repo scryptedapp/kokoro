@@ -18,7 +18,8 @@
       "runtime": "python",
       "type": "API",
       "interfaces": [
-         "LLMTools"
+         "LLMTools",
+         "MediaConverter"
       ],
       "pythonVersion": {
          "default": "3.12"
@@ -39,5 +40,5 @@
    "devDependencies": {
       "@scrypted/sdk": "^0.5.48"
    },
-   "version": "0.0.20"
+   "version": "0.0.21"
 }
